@@ -1,9 +1,75 @@
-h1{
-    background-color: gray;
+/* navbar */
+
+*{
+    margin: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+    width: 100%;
     text-align: center;
+    height: 100px;
+}
+
+#logo{
+    height: 75px;
+    width: 75px;
+    padding-left: 30px;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: black;
+}
+
+
+h1{
+    /* background-color: gray; */
+    text-align: center;
+}
+
+/* main section */
+main{
+    height: calc(100vh - 100px);
+    background-image: url(./images/kitchen.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 img{
     height: 400px;
     width: 400px;
 }
+
+h2{
+    font-style: italic;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    color: rgb(248, 161, 0);
+}
+
+form{
+    background-color: orange;
+    height: 75px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
